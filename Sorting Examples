@@ -1,0 +1,12 @@
+
+<?php
+// PHP program to demonstrate the use of sort() function
+// sorts the string case-sensitively 
+$array = array("geeks", "Raj", "striver", "coding", "RAj");
+  
+// sort function, sorts the string case-sensitively 
+sort($array, SORT_STRING); 
+  
+// prints the sorted array 
+print_r($array);
+?>
